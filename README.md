@@ -1,1 +1,2 @@
-# chart_line_rounder
+# chart lines rounder intersections
+
