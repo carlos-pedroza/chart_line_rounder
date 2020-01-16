@@ -78,7 +78,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 ## Version 📌
 
-![alt text](https://github.com/carlos-pedroza/chart_line_rounder/blob/master/graph.jpeg)
+![alt text](https://github.com/carlos-pedroza/chart_line_rounder/blob/master/chart_line.jpeg)
 
 1.0.0
 
