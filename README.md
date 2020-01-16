@@ -21,29 +21,17 @@ copy these two class files in to your project, and import to main.dart or anothe
 
 ```Dart
 import 'package:flutter/material.dart';
-//import './widgets/simple-bar-chart.dart';
-//import './widgets/area_and_line_chart.dart';
-import './widgets/spark_chart.dart';
-import 'package:graphs/widgets/graficaCurvas.dart';
+import './widgets/spark_chart.dart'; //<- INCLUDE PACKAGE
+import 'package:graphs/widgets/graficaCurvas.dart'; //<- INCLUDE PACKAGE
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        // This is the theme of your application.
-        //
-        // Try running your application with "flutter run". You'll see the
-        // application has a blue toolbar. Then, without quitting the app, try
-        // changing the primarySwatch below to Colors.green and then invoke
-        // "hot reload" (press "r" in the console where you ran "flutter run",
-        // or simply save your changes to "hot reload" in a Flutter IDE).
-        // Notice that the counter didn't reset back to zero; the application
-        // is not restarted.
         primarySwatch: Colors.blue,
       ),
       home: MyHomePage(title: 'Flutter Demo Home Page'),
@@ -63,7 +51,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    var data = {
+    var data = {                //<-- DATA IN A MAP VARIABLE
       "Ene": {"label": "Enero", "value": 450000.0},
       "Feb": {"label": "Febrero", "value": 700000.0},
       "Mar": {"label": "Marzo", "value": 100453.0},
@@ -74,8 +62,6 @@ class _MyHomePageState extends State<MyHomePage> {
     var temp = [450000.0,700000.0,280000.0,690453.0,646000.0,880000.0];
     return Scaffold(
       appBar: AppBar(
-        // Here we take the value from the MyHomePage object that was created by
-        // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
       ),
       body: Container(
