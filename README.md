@@ -81,13 +81,11 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Container(
         height: double.infinity,
         color: Colors.blueGrey,
-        // Center is a layout widget. It takes a single child and positions it
-        // in the middle of the parent.
         child: Padding(
           padding: EdgeInsets.only(top: 20, bottom: 20),
-          child: ## SparkChart(dataGraph: data),
+          child: SparkChart(dataGraph: data), //<--- INCLUDE CHART CODE
         ),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      ), 
     );
   }
 }
