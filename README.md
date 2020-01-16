@@ -19,7 +19,7 @@ it paint graph detail.
 
 copy these two class files in to your project, and import to main.dart or another dart page, i include code as sample into main.dart:
 
-...flutter
+```Dart
 import 'package:flutter/material.dart';
 //import './widgets/simple-bar-chart.dart';
 //import './widgets/area_and_line_chart.dart';
@@ -91,9 +91,9 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-...
+```
 
-## Verison 📌
+## Version 📌
 
 ![alt text](https://github.com/carlos-pedroza/chart_line_rounder/blob/master/graph.jpeg)
 
