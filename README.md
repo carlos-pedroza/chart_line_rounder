@@ -85,7 +85,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 ## Author
 
-* **Carlos Pedroza** - *Develop* - (carlos.pedrozav@gmail.com)
+* **Carlos Pedroza** - *Developer* - (carlos.pedrozav@gmail.com)
 
 ## License 📄
 
