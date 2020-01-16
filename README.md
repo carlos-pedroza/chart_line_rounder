@@ -70,7 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
           padding: EdgeInsets.only(top: 20, bottom: 20),
           child: SparkChart(dataGraph: data), //<--- INCLUDE CHART CODE
         ),
-      ), 
+      ),
     );
   }
 }
