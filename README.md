@@ -59,7 +59,6 @@ class _MyHomePageState extends State<MyHomePage> {
       "May": {"label": "Mayo", "value": 560000.0},
       "Jun": {"label": "Junio", "value": 880000.0}
     };
-    var temp = [450000.0,700000.0,280000.0,690453.0,646000.0,880000.0];
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
