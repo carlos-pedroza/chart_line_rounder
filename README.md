@@ -90,6 +90,3 @@ class _MyHomePageState extends State<MyHomePage> {
 
 MIT
 
-
----
-⌨️ con ❤️ por [carlos_pedroza](https://github.com/carlos-pedroza/chart_line_rounder) 😊
